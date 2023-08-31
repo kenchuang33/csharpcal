@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        
+        <DataGrid x:Name="dataGrid" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="20,43,229,69"/>
+        <Button x:Name="Show" Content="Show" HorizontalAlignment="Left" Margin="645,92,0,0" VerticalAlignment="Top" Height="69" Width="94" Click="Show_Click"/>
+       
+        <Button x:Name="Delete" Content="Delete" HorizontalAlignment="Left" Margin="645,267,0,0" VerticalAlignment="Top" Height="69" Width="94" Click="Delete_Click"/>
+        
+
+    </Grid>
+</Window>

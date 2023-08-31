@@ -1,0 +1,39 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextRes" HorizontalAlignment="Left" Margin="20,21,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="378" Height="61"/>
+        <Button x:Name="button" Content="1" HorizontalAlignment="Left" Height="42"     Margin="20,123,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="2" HorizontalAlignment="Left" Height="42" Margin="120,123,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy1" Content="3" HorizontalAlignment="Left" Height="42" Margin="220,123,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy2" Content="+" HorizontalAlignment="Left" Height="42" Margin="320,123,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy3" Content="4" HorizontalAlignment="Left" Height="42" Margin="20,0,0,0" VerticalAlignment="Center" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy4" Content="5" HorizontalAlignment="Left" Height="42" Margin="120,0,0,0" VerticalAlignment="Center" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy5" Content="6" HorizontalAlignment="Left" Height="42" Margin="220,0,0,0" VerticalAlignment="Center" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy6" Content="-" HorizontalAlignment="Left" Height="42" Margin="320,0,0,0" VerticalAlignment="Center" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy7" Content="7" HorizontalAlignment="Left" Height="42" Margin="20,275,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy8" Content="8" HorizontalAlignment="Left" Height="42" Margin="120,275,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy9" Content="9" HorizontalAlignment="Left" Height="42" Margin="220,275,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy10" Content="*" HorizontalAlignment="Left" Height="42" Margin="320,275,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy11" Content="0" HorizontalAlignment="Left" Height="42" Margin="20,348,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <Button x:Name="button_Copy12" Content="Clear" HorizontalAlignment="Left" Height="42" Margin="120,348,0,0" VerticalAlignment="Top" Width="78" Click="button_Clear"/>
+        <Button x:Name="button_Copy13" Content="=" HorizontalAlignment="Left" Height="42" Margin="220,348,0,0" VerticalAlignment="Top" Width="78" Click="button_Euals"/>
+        <Button x:Name="button_Copy14" Content="/" HorizontalAlignment="Left" Height="42" Margin="320,348,0,0" VerticalAlignment="Top" Width="78" Click="button_Click"/>
+        <TextBox x:Name="Preorder" HorizontalAlignment="Left" Margin="541,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox x:Name="Postorder" HorizontalAlignment="Left" Margin="541,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox x:Name="Decimal" HorizontalAlignment="Left" Margin="541,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBox x:Name="Binary" HorizontalAlignment="Left" Margin="541,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="221" Height="47"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,136,0,0" TextWrapping="Wrap" Text="Preorder" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,212,0,0" TextWrapping="Wrap" Text="Postorder" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="446,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="zh-tw" Text="Decimal"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="446,361,0,0" TextWrapping="Wrap" Text="Binary" VerticalAlignment="Top"/>
+        <Button x:Name="insert" Content="insert" HorizontalAlignment="Left" Margin="523,21,0,0" VerticalAlignment="Top" Height="61" Width="89" Click="insert_Click"/>
+        <Button x:Name="query" Content="query" HorizontalAlignment="Left" Margin="668,21,0,0" VerticalAlignment="Top" Height="61" Width="94" Click="query_Click"/>
+
+    </Grid>
+</Window>
